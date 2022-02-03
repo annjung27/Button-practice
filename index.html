@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <button onclick="removeJoin(this)">Join</button>
+    </div>
+    <div>
+        <p><span id="counter1">20</span> Likes</p>
+        <button onclick="like('#counter1')">Like</button>
+        <p><span id="counter2">20</span> Likes</p>
+        <button onclick="like('#counter2')">Like</button>
+        <p><span id="counter3">20</span> Likes</p>
+        <button onclick="like('#counter3')">Like</button>
+        <p><span id="counter4">20</span> Likes</p>
+        <button onclick="like('#counter4')">Like</button>
+    </div>
+    <div class="input-group">
+        <input type="text" id="search">
+        <button onclick="search()">Go</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

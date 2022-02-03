@@ -1,0 +1,23 @@
+div {
+    padding: 20px;
+}
+
+#search {
+    border-radius: 5px 0 0 5px;
+}
+
+.input-group {
+    font-size: 0;
+}
+
+.input-group button {
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #00bbb4;
+
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
